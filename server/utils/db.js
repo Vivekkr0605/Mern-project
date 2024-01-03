@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 
-// const URI = "mongodb://127.0.0.1:27017/mern_admin";
+// const URI = "momern_admin";
 
 // const URI = process.env.MONGODB_URI;
-const URI = "mongodb+srv://mernuser:F82bYpqliihnTPOL@cluster0.tegyqv6.mongodb.net/mern_admin?retryWrites=true&w=majority"
+const URI = "mongodb"
 
 const connectDb = async () => {
   try {
